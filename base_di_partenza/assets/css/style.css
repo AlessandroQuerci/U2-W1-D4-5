@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 12rem;
+
+  background-color: #ffc017;
+}
+
+header img {
+  width: 10%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; /* Spaziatura tra gli elementi */
+  padding: 1rem;
+}
+
+nav * {
+  margin-left: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav button {
+  background-color: black;
+  color: white;
+  border-radius: 35px;
+  padding: 0.7rem;
+  padding-inline: 1rem;
+}
+
+hr {
+  border: none; /* Rimuove il bordo predefinito */
+  height: 1px; /* Imposta l'altezza della linea */
+  background-color: black; /* Colore della linea */
+  margin: 0;
+}
+
+.hero {
+  background-color: #ffc017;
+  padding-left: 12rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+#tM {
+  width: 36%;
+  position: relative;
+}
+
+.heroText {
+  padding-block: 6rem;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 9rem;
+  letter-spacing: -10px;
+}
+
+.heroText p {
+  margin-block-start: 2.3rem;
+  margin-block-end: 3.3rem;
+
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.heroText button {
+  background-color: black;
+  color: rgb(255 255 255 / 95%);
+  border-radius: 35px;
+  padding: 0.7rem;
+  padding-inline: 4rem;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+section {
+  padding-inline: 12rem;
+  padding-block: 2rem;
+}
+
+article {
+  padding-inline: 12rem;
+}
