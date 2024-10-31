@@ -95,6 +95,88 @@ section {
   padding-block: 2rem;
 }
 
+.headSection {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.headSection img {
+  vertical-align: middle;
+  display: inline-block;
+  width: 3.3%;
+  margin-right: 10px;
+}
+
+.headSection h3 {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 0;
+
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.trendContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.sectionCard {
+  width: 33.333%;
+  flex-grow: inherit;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: start;
+}
+
+.cardNumbers {
+  font-family: sans-serif;
+  float: left;
+  margin-right: 1rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #e6e7e7;
+  letter-spacing: -4px;
+}
+.cardImg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.cardImg img {
+  margin-right: 0.8rem;
+  border-radius: 50%;
+  width: 9%;
+}
+
+.cardImg span {
+  color: #79777581;
+}
+
+.cardText {
+  margin-top: 0.4rem;
+}
+
+.cardText span {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.opacText {
+  margin-top: 1.5rem;
+  color: #797775;
+  font-size: 1.4rem;
+}
+
 article {
   padding-inline: 12rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
 }
