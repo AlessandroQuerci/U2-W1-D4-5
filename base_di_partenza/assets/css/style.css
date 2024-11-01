@@ -42,9 +42,9 @@ nav button {
 }
 
 hr {
-  border: none; /* Rimuove il bordo predefinito */
-  height: 1px; /* Imposta l'altezza della linea */
-  background-color: black; /* Colore della linea */
+  border: none;
+  height: 1px;
+  background-color: black;
   margin: 0;
 }
 
@@ -138,7 +138,7 @@ section {
   font-size: 2.8rem;
   font-weight: 800;
   color: #e6e7e7;
-  letter-spacing: -4px;
+  letter-spacing: -2px;
 }
 .cardImg {
   display: flex;
@@ -146,13 +146,13 @@ section {
   align-items: center;
   font-weight: 500;
   margin-bottom: 2.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .cardImg img {
   margin-right: 0.8rem;
   border-radius: 50%;
-  width: 9%;
+  width: 7%;
 }
 
 .cardImg span {
@@ -171,12 +171,157 @@ section {
 .opacText {
   margin-top: 1.5rem;
   color: #797775;
-  font-size: 1.4rem;
+  font-size: 1rem;
+}
+
+.opacText img {
+  vertical-align: text-bottom;
+}
+
+.lhr {
+  border: none;
+  height: 1px;
+  background-color: rgba(120, 120, 120, 0.261);
+  margin: 0;
 }
 
 article {
-  padding-inline: 12rem;
+  margin-top: 7rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+.articleCard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.mainImg {
+  width: 28%;
+}
+
+.cardContent {
+  margin-right: 2rem;
+  width: 55%;
+}
+
+.cardImgArticle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+
+.cardImgArticle img {
+  margin-right: 0.8rem;
+  border-radius: 50%;
+  width: 5%;
+}
+
+.cardTextArticle {
+  margin-top: 0.4rem;
+}
+
+.cardTextArticle span {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.cardTextArticle p {
+  font-size: 1.1rem;
+  color: #797775;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.lowCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+#book {
+  width: 6%;
+}
+
+.opacTextArticle {
+  margin-top: 1rem;
+  color: #797775;
+  font-size: 1rem;
+}
+
+.opacTextArticle button {
+  background-color: #f2f3f3;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #7f7f7fb6;
+  border: none;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.opacTextArticle img {
+  vertical-align: text-bottom;
+  margin-left: 0.5rem;
+}
+
+aside {
+  width: 55%;
+}
+aside p {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.science {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.science button {
+  background-color: white;
+  border-color: #7977750f;
+  font-size: 1rem;
+  color: #797775a8;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  margin: 0.3rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.asideLinks {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.asideLinks a {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #797775c5;
 }
